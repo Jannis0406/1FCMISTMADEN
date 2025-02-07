@@ -70,31 +70,12 @@
               class="text-gray-300 hover:text-emerald-400 transition duration-300"
               >Erfolge</a
             >
+            <a
+              href="#contact"
+              class="text-gray-300 hover:text-emerald-400 transition duration-300"
+              >Kontakt</a
+            >
           </div>
-        </div>
-
-        <!-- Mobile menu -->
-        <div id="mobile-menu" class="hidden lg:hidden pb-4">
-          <a
-            href="#about"
-            class="block py-2 text-gray-300 hover:text-emerald-400 transition duration-300"
-            >Über uns</a
-          >
-          <a
-            href="#events"
-            class="block py-2 text-gray-300 hover:text-emerald-400 transition duration-300"
-            >Turniere</a
-          >
-          <a
-            href="#gallery"
-            class="block py-2 text-gray-300 hover:text-emerald-400 transition duration-300"
-            >Galerie</a
-          >
-          <a
-            href="#achievements"
-            class="block py-2 text-gray-300 hover:text-emerald-400 transition duration-300"
-            >Erfolge</a
-          >
         </div>
       </div>
     </nav>
@@ -120,11 +101,11 @@
         <a
           href="#achievements"
           class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full transition duration-300"
+          >Unsere Erfolge</a
         >
-          Unsere Erfolge
-        </a>
       </div>
     </header>
+
     <!-- About Section -->
     <section id="about" class="py-20 bg-gray-800">
       <div class="container mx-auto px-4">
@@ -149,7 +130,8 @@
           <h2 class="text-3xl font-bold uppercase tracking-wider">Über uns</h2>
         </div>
         <p class="text-xl text-gray-300 text-center">
-          
+          Wir sind eine Hobbyturnier Mannschaft die im Umkreis
+          Hersfeld-Rothenburg regelmäßig an Turnieren und Events teilnimmt.
         </p>
       </div>
     </section>
@@ -250,6 +232,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Sponsors Section -->
     <section id="sponsors" class="py-20 bg-gray-800">
       <div class="container mx-auto px-4">
         <div class="flex items-center justify-center space-x-4 mb-12">
@@ -274,11 +258,53 @@
           <h2 class="text-3xl font-bold uppercase tracking-wider">Sponsoren</h2>
         </div>
         <div class="bg-gray-900 rounded-lg p-6 text-center">
-          <p class="text-xl text-gray-300">Aktuell haben wir noch keine Sponsoren.</p>
-          <p class="text-gray-400 mt-2">Möchtest du uns unterstützen? Kontaktiere uns!</p>
+          <p class="text-xl text-gray-300">
+            Aktuell haben wir noch keine Sponsoren.
+          </p>
+          <p class="text-gray-400 mt-2">
+            Möchtest du uns unterstützen? Kontaktiere uns!
+          </p>
         </div>
       </div>
     </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center justify-center space-x-4 mb-12">
+          <div class="bg-emerald-600 p-3 rounded-lg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+          <h2 class="text-3xl font-bold uppercase tracking-wider">Kontakt</h2>
+        </div>
+        <div class="bg-gray-800 rounded-lg p-6 text-center">
+          <p class="text-xl text-gray-300">
+            Du kannst uns gerne per E-Mail kontaktieren:
+          </p>
+          <a
+            href="mailto:fcmistmaden@gmail.com"
+            class="text-emerald-400 hover:text-emerald-300 text-xl font-semibold"
+            >fcmistmaden@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+
     <!-- Achievements Section -->
     <section id="achievements" class="py-20 bg-gray-900">
       <div class="container mx-auto px-4">
@@ -319,7 +345,9 @@
               <span class="text-3xl">🏆</span>
               <div>
                 <p class="text-emerald-400 font-semibold">2023</p>
-                <h3 class="text-xl font-bold">Gewinner vom Insel Cup in Heimboldshausen</h3>
+                <h3 class="text-xl font-bold">
+                  Gewinner vom Insel Cup in Heimboldshausen
+                </h3>
               </div>
             </div>
           </div>
@@ -336,32 +364,43 @@
               </div>
             </div>
           </div>
-          <div
-
-   
-    
-        </p>
+        </div>
       </div>
     </section>
- <!-- Footer -->
- <footer class="bg-black text-gray-400 py-8">
-  <div class="container mx-auto px-4 text-center">
-    <p>
-      &copy; 2025 1. FC Mistmaden |
-      <a href="#" class="hover:text-white transition duration-300"
-        >Impressum</a
-      >
-    </p>
-  </div>
-</footer>
 
-<script>
-  // Close mobile menu when clicking a link
-  document.querySelectorAll("#mobile-menu a").forEach((link) => {
-    link.addEventListener("click", () => {
-      document.getElementById("mobile-menu").classList.add("hidden");
-    });
-  });
-</script>
-</body>
+    <!-- Footer -->
+    <footer class="bg-black text-gray-400 py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p>
+          &copy; 2025 1. FC Mistmaden |
+          <a href="#" class="hover:text-white transition duration-300"
+            >Impressum</a
+          >
+        </p>
+        <div class="mt-4">
+          <a
+            href="https://www.instagram.com/fc_mistmaden?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            class="inline-flex items-center space-x-2 text-gray-400 hover:text-white transition duration-300"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram Logo"
+              class="w-6 h-6"
+            />
+            <span>@fc_mistmaden</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Close mobile menu when clicking a link
+      document.querySelectorAll("#mobile-menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.getElementById("mobile-menu").classList.add("hidden");
+        });
+      });
+    </script>
+  </body>
 </html>
