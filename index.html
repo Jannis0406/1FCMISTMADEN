@@ -124,22 +124,6 @@
           Unsere Erfolge
         </a>
       </div>
-      <svg
-        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white/10 w-40 h-40"
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <circle cx="12" cy="12" r="10" />
-        <path d="M12 16V12" />
-        <path d="M12 8h.01" />
-      </svg>
     </header>
     <!-- About Section -->
     <section id="about" class="py-20 bg-gray-800">
@@ -267,7 +251,35 @@
         </div>
       </div>
     </section>
-
+    <section id="sponsors" class="py-20 bg-gray-800">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center justify-center space-x-4 mb-12">
+          <div class="bg-emerald-600 p-3 rounded-lg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect width="18" height="18" x="3" y="3" rx="2" />
+              <path d="M3 9h18" />
+              <path d="M9 21V9" />
+              <path d="M15 21V9" />
+            </svg>
+          </div>
+          <h2 class="text-3xl font-bold uppercase tracking-wider">Sponsoren</h2>
+        </div>
+        <div class="bg-gray-900 rounded-lg p-6 text-center">
+          <p class="text-xl text-gray-300">Aktuell haben wir noch keine Sponsoren.</p>
+          <p class="text-gray-400 mt-2">Möchtest du uns unterstützen? Kontaktiere uns!</p>
+        </div>
+      </div>
+    </section>
     <!-- Achievements Section -->
     <section id="achievements" class="py-20 bg-gray-900">
       <div class="container mx-auto px-4">
@@ -327,53 +339,31 @@
           </div>
           <div
 
-    <!-- About Section -->
-    <section id="about" class="py-20 bg-gray-800">
-      <div class="container mx-auto px-4">
-        <div class="flex items-center justify-center space-x-4 mb-12">
-          <div class="bg-emerald-600 p-3 rounded-lg">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 16V12" />
-              <path d="M12 8h.01" />
-            </svg>
-          </div>
-          <h2 class="text-3xl font-bold uppercase tracking-wider">Sponsoren</h2>
-        </div>
-        <p class="text-xl text-gray-300 text-center">
-          Gibt keine also meldet euch
+   
+    
         </p>
       </div>
     </section>
-    <!-- Footer -->
-    <footer class="bg-black text-gray-400 py-8">
-      <div class="container mx-auto px-4 text-center">
-        <p>
-          &copy; 2025 1. FC Mistmaden |
-          <a href="#" class="hover:text-white transition duration-300"
-            >Impressum</a
-          >
-        </p>
-      </div>
-    </footer>
+ <!-- Footer -->
+ <footer class="bg-black text-gray-400 py-8">
+  <div class="container mx-auto px-4 text-center">
+    <p>
+      &copy; 2025 1. FC Mistmaden |
+      <a href="#" class="hover:text-white transition duration-300"
+        >Impressum</a
+      >
+    </p>
+  </div>
+</footer>
 
-    <script>
-      // Close mobile menu when clicking a link
-      document.querySelectorAll("#mobile-menu a").forEach((link) => {
-        link.addEventListener("click", () => {
-          document.getElementById("mobile-menu").classList.add("hidden");
-        });
-      });
-    </script>
-  </body>
+<script>
+  // Close mobile menu when clicking a link
+  document.querySelectorAll("#mobile-menu a").forEach((link) => {
+    link.addEventListener("click", () => {
+      document.getElementById("mobile-menu").classList.add("hidden");
+    });
+  });
+</script>
+</body>
 </html>
+
